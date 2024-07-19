@@ -1,0 +1,167 @@
+@media screen and (max-width: 1400px) {
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    
+    .about-containers {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #experience,
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+    section,
+    .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    
+    .section__pic-container {
+        width: auto;
+        height: 275px;
+        margin: 0 auto 2rem;
+        margin: 0 auto;
+    }
+
+    .about-pic,
+    .first-pic {
+        margin: 0 auto;
+        display: table;
+        margin-bottom: 1rem;
+    }
+
+    .about-containers{
+        margin-top: 0;
+    }
+
+    #profile {
+        height: 60vh;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    #about {
+        margin-top: 28rem;
+    }
+
+    #experience,
+    #projects {
+        margin-top: 15rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    #contact,
+    footer {
+        height: 40vh;
+    }
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article {
+        font-size: 1rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers, .contact-info-upper-container, .btn-container {
+        flex-wrap: wrap;
+    }
+    .contact-info-container {
+        margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+        font-size: 1.5rem;
+    }
+
+    .experience-sub-title {
+        font-size: 1.5rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .section__pic-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .text-container {
+        text-align: justify;
+    }
+    
+    #about {
+        margin-top: 2rem;
+    }
+
+    .first-pic
+    {
+        height: 80%;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .about-pic {
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .section__pic__container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    #about,
+    #experience {
+        margin-top: 5rem;
+    }
+
+    #contact {
+        margin-top: 2rem;
+    }
+
+    #projects {
+        margin-top: 40rem;
+    }
+} 
