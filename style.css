@@ -384,7 +384,7 @@ article .icon {
 
 .project-btn {
     color: black;
-    border: rgb(163, 163, 163);
+    /*border: rgb(163, 163, 163)*/;
 }
 
 /* CONTACT SECTION */
@@ -443,13 +443,20 @@ article .icon {
     margin-left: 8px;
 }
 
+.project-img {
+    max-width: 20rem;
+    max-height: auto;
+}
+
 /* FOOTER SECTION */
 
 footer {
     height: 26vh;
     margin: 0 1rem;
+    margin-top: 2rem;
 }
 
 footer p {
     text-align: center;
 }
+

@@ -4,3 +4,7 @@ function toggleMenu(){
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+function redirectPortfolioSite () {
+    window.location.href = 'https://github.com/glenntm/portfolio-site';
+}
