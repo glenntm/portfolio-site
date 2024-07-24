@@ -8,3 +8,7 @@ function toggleMenu(){
 function redirectPortfolioSite () {
     window.location.href = 'https://github.com/glenntm/portfolio-site';
 }
+
+function redirectLiveWebsite () {
+    window.location.href = 'https://glenn-telus-mensah.netlify.app/';
+}
